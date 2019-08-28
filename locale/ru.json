@@ -1,0 +1,10 @@
+{
+ "garbage_fields_title": "Список удаляемых параметров", 
+ "page_inject_type_options.no": "Нет", 
+ "page_inject_type_options.observe": "Динамически", 
+ "page_inject_type_options.onload": "Статически", 
+ "page_inject_type_title": "Исправлять ссылки на страницах", 
+ "request_hook_enabled_options.no": "Нет", 
+ "request_hook_enabled_options.yes": "Да", 
+ "request_hook_enabled_title": "Перехватывать запросы"
+}

@@ -1,0 +1,10 @@
+{
+ "garbage_fields_title": "Garbage fields list", 
+ "page_inject_type_options.no": "No", 
+ "page_inject_type_options.observe": "Dynamic", 
+ "page_inject_type_options.onload": "Static", 
+ "page_inject_type_title": "Fix links on pages", 
+ "request_hook_enabled_options.no": "No", 
+ "request_hook_enabled_options.yes": "Yes", 
+ "request_hook_enabled_title": "Intercept requests"
+}

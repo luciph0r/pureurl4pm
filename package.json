@@ -1,0 +1,15 @@
+{
+  "title": "Pure URL for Palemoon",
+  "name": "pureurl4pm",
+  "version": "1.0.0",
+  "description": "Strips garbage referer tracking fields like 'utm_source' from links.",
+  "main": "main.js",
+  "author": "moonbat",
+  "engines": {
+    "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=28.*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ]
+}
