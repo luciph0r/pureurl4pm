@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting data-jetpack-id="pure-url@palemoon" pref="extensions.pure-url@palemoon.request_hook_enabled" pref-name="request_hook_enabled" title="Intercept requests" type="radio">
+    <radiogroup>
+      <radio label="yes" value="true"/>
+      <radio label="no" value="false"/>
+    </radiogroup>
+  </setting>
+  <setting data-jetpack-id="pure-url@palemoon" pref="extensions.pure-url@palemoon.page_inject_type" pref-name="page_inject_type" title="Fix links on pages" type="radio">
+    <radiogroup>
+      <radio label="observe" value="observe"/>
+      <radio label="onload" value="onload"/>
+      <radio label="no" value=""/>
+    </radiogroup>
+  </setting>
+  <setting data-jetpack-id="pure-url@palemoon" pref="extensions.pure-url@palemoon.garbage_fields" pref-name="garbage_fields" title="Garbage fields list" type="string"/>
+</vbox>
