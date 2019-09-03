@@ -192,7 +192,7 @@ exports.main = function(options, callbacks)
 	if (options.loadReason === 'install' || options.loadReason === 'upgrade')
 	{
 		let current_list = prefs.prefs.garbage_fields.replace(/[^-._@\d\w]+/ig, ' ').replace(/[\s]{2,}/g, ' ').replace(/(^[\s]+|[\s]+$)/g, '').split(' ');
-		let default_list = ['utm_source', 'utm_medium', 'utm_term', 'utm_content', 'utm_campaign', 'utm_reader', 'utm_place', 'ga_source', 'ga_medium', 'ga_term', 'ga_content', 'ga_campaign', 'ga_place', 'yclid', '_openstat', 'feature@youtube.com', 'fb_action_ids', 'fb_action_types', 'fb_ref', 'fb_source', 'action_object_map', 'action_type_map', 'action_ref_map', 'ref@facebook.com', 'fref@facebook.com', 'hc_location@facebook.com', 'ref_@imdb.com', 'src@addons.mozilla.org', 'fbclid@facebook.com', 'sdsrc', 'c', 'ref', 'trk', '__tn__', 'cid', 'from', 'pfmredir', 'igshid','ved','ei@google.com','gs_l'];
+		let default_list = ['utm_source', 'utm_medium', 'utm_term', 'utm_content', 'utm_campaign', 'utm_reader', 'utm_place', 'ga_source', 'ga_medium', 'ga_term', 'ga_content', 'ga_campaign', 'ga_place', 'yclid', '_openstat', 'feature@youtube.com', 'fb_action_ids', 'fb_action_types', 'fb_ref', 'fb_source', 'action_object_map', 'action_type_map', 'action_ref_map', 'ref@facebook.com', 'fref@facebook.com', 'hc_location@facebook.com', 'ref_@imdb.com', 'src@addons.mozilla.org', 'fbclid@facebook.com', 'sdsrc', 'ref', 'trk', '__tn__', 'cid', 'from', 'pfmredir', 'igshid','ved','ei@google.com','gs_l'];
 		let changed = false;
 
 		default_list.forEach(function(item)
