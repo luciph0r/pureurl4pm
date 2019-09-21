@@ -1,8 +1,8 @@
 {
   "id":"pure-url@palemoon",
-  "title": "Pure URL for Palemoon",
+  "title": "Pure URL for Pale Moon",
   "name": "pureurl4pm",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MPL 2.0",
   "homepage":"https://github.com/luciph0r/pureurl4pm/",
   "description": "Strips garbage referer tracking fields like 'utm_source' from links.",
